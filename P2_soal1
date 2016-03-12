@@ -1,3 +1,7 @@
+/* 
+Program mengeluarkan biodata 
+Created By : Singgih
+*/
 #include <iostream>
 #include <string.h>
 
