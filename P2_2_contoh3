@@ -1,0 +1,34 @@
+/*
+Contoh 3
+Nama projects   	:  P02_C3_Operator
+Nama source file   	:  operator_relasi&logika
+*/
+//contoh penggunaan operator relasi & logika
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int nilai; //dekalarsi variabel nilai
+  nilai = 3>2; // hasil ungkapan : benar
+  cout << "nilai = "<<nilai<<endl; //mengaluarkan value nilai
+  nilai = 2>3; // hasil ungkapan : salah
+  cout << "nilai = " <<nilai<<endl;
+
+  int x = 200; //deklarasi variabel x
+
+  cout<<"( x >= 1) && (x <= 50) -> "
+    <<(( x >= 1) && (x <= 50))<<'\n'; //deteksi nilai x dengan AND true or false
+
+  cout<<"( x >= 1) || (x <= 50) -> "
+    <<(( x >= 1) || (x <= 50))<<'\n'; //deteksi nilai x dengan OR true or false
+
+  int bil1,bil2,minim; //deklarasi variabel bil1,bil2,minim
+  bil1 = 53; //memberi nilai bil1
+  bil2 = 6; //memberi nilai bil2
+
+  minim = bil1<bil2 ? bil1:bil2; //perbadingan antara dua bilangan
+  cout << "Bilangan terkecil =  "<<minim<<'\n'; //mengeluarkan nilai minim
+return 0;
+}
