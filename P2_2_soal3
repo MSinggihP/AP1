@@ -1,0 +1,21 @@
+/*
+program memasukan dan mengeluarkan nama
+created by : singgih
+*/
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main(){
+    string name;
+
+    cout<<"Masukan Nama Anda : ";
+    getline(cin,name);
+
+    cout<<"Nama Anda ";
+    cout<<name;
+
+return 0;
+}
