@@ -1,0 +1,27 @@
+/*
+memasukan nilai dua bilangan 
+mengeluarkan hasil perjumlahan dan pengurangan
+Created by : Singgih
+*/
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int bil1,bil2,h_jumlah,h_kurang;
+
+    cout<<"Masukan Bil1 : ";
+    cin>>bil1;
+    cout<<"Masukan Bil2 : ";
+    cin>>bil2;
+    cout<<endl;
+
+    h_jumlah=bil1+bil2;
+    h_kurang=bil1-bil2;
+    cout<<"-----ARIMATIKA-----"<<endl<<endl;
+    cout<<"Perjumlahan "<<bil1<<" + "<<bil2<<" = "<<h_jumlah<<endl;
+    cout<<"Pengurangan "<<bil1<<" - "<<bil2<<" = "<<h_kurang<<endl;
+
+
+return 0;
+}
