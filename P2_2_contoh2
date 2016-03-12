@@ -1,0 +1,34 @@
+/*
+Contoh 2
+Nama projects  	:  P02_C2_Operator
+Nama source file   	:  operator_aritmatika
+*/
+#include <iostream>
+
+//contoh pemakaian operator aritmatika
+
+using namespace std;
+
+int main(){
+    int a,b,c,d; //deklarasi variabel a,b,c,d
+    int r=10; //mendekalarikan lalu memberi nilai r
+    int s; //deklarasi variabel s
+    a=5; //memberi nilai a
+    b=600; //memberi nilai b
+    c=5; //memberi nilai c
+    d=b*b-4*a*c; //rumus aritmataika
+    s=10+r++; //memberi nilai s dan menjumlahkan r yang telah ditambah nilainya satu
+
+    cout<<"d = "<<d<<endl; //mengeluarkan nilai d=b*b-4*a*c
+    cout<<"r = "<<r<<endl; //mengeluarkan nilai r
+    cout<<"s = "<<s<<endl; //mengeluarkan nilai s
+
+    r=10; //memberi nilai r
+    s=10+ ++r; //++r artinya menambahkan nilai r jadi r=r+1
+
+    cout<<"r = "<<r<<endl; //mengeluarkan nilai r
+    cout<<"s = "<<s<<endl; //mengeluarkan nilai s
+    cout<<"Hasil dari 5 % 7 adalah "<<5%7<<endl; //mengeluarkan hasil sisa bagi dari 5%7
+
+return 0;
+}
