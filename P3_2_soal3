@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    long int harga=98000000;
+    long int umur,tanggal_lahir,harga_D,total;
+
+
+
+    cout<<"Harga HP = "<<harga<<endl;
+    cout<<"Untuk Diskon Silakan Masukan Data Anda"<<endl;
+    cout<<"Umur Anda          : ";
+    cin>>umur;
+    cout<<"Tanggal Lahir Anda : ";
+    cin>>tanggal_lahir;
+
+     while(tanggal_lahir>=32 || tanggal_lahir<=0){
+        cout<<endl<<"Silakan Masukan Ulang"<<endl;
+        cout<<"Tanggal Lahir Anda : ";
+        cin>>tanggal_lahir;
+    }
+
+
+    harga_D=harga-(harga*umur/100);
+    total=harga_D-(harga_D*tanggal_lahir/100);
+
+
+    cout<<endl<<"Total Harga Setelah Diskon = Rp."<<total<<endl;
+
+return 0;
+}
